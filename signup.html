@@ -50,7 +50,37 @@
       </nav>
     </header>
     <!--main content of the webpage-->
-    <main>Main Content</main>
+    <main>
+      <section id="signup">
+        <form action="https://formdump.codeinstitute.net" id="signup-form" method=""POST>
+          <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name" class="text-input" required>
+          <br>
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last-name" class="text-input" required>
+          <br>
+          <label for="email-address">Email Address</label>
+          <input type="email" id="email-address" name="email-address" class="text-input" required>
+          <br>
+          <div class="radio-buttons">
+            <div>
+              <label for="road">Road</label>
+              <input type="radio" name="running_preference" id="road" required>
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input type="radio" name="running_preference" id="trail" required>
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input type="radio" name="running_preference" id="both" required>
+            </div>
+          </div>
+          <input type="submit" class="join-button" value="Let's Run!">
+        </form>
+      </section>
+    </main>
     <!--Footer-->
     <footer>
       <ul id="social-networks">
