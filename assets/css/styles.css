@@ -136,6 +136,25 @@ main{
 #benefits p{
     padding: 0 20px;
 }
+
+#circle-cover-bg{
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    background-color: rgb(239, 96, 170);
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* Make the image circular */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* footer */
 #social-networks{
     text-align: center;
